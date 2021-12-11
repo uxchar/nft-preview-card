@@ -1,0 +1,46 @@
+body {
+  background: #0d1a2d;
+  color: #8aa6cf;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.cube-img {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 2%;
+}
+.nft-card {
+  height: 550px;
+  width: 350px;
+  background: #162840;
+  border-radius: 2%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
+.nft-card div {
+  grid-row: 2/3;
+}
+
+.container {
+  margin: 20px;
+}
+
+.card-title,
+.nft-author {
+  color: #fff;
+}
+
+.cryto-price {
+  display: grid;
+}
+
+.days-indicator {
+  display: grid;
+}
