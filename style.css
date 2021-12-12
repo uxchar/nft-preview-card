@@ -1,7 +1,8 @@
 body {
   background: #0d1a2d;
-  color: #8aa6cf;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+
   letter-spacing: 0.02em;
 }
 
@@ -13,13 +14,14 @@ body {
   border-radius: 2%;
 }
 .nft-card {
-  height: 550px;
+  height: 575px;
   width: 350px;
   background: #162840;
-  border-radius: 2%;
+  border-radius: 4%;
   grid-row: 2/3;
   grid-column: 2/3;
   margin: 0 auto;
+  place-content: center;
   display: grid;
   grid-template-rows: 1fr 6fr 1fr;
 }
@@ -29,18 +31,62 @@ body {
 }
 
 .container {
-  margin: 20px;
+  margin: 25px;
+  box-shadow: 20px;
 }
 
-.card-title,
-.nft-author {
+.card-title {
+  font-size: 1.4rem;
+}
+
+.card-title {
   color: #fff;
 }
 
-.cryto-price {
-  display: grid;
+.card-description {
+  margin-top: -15px;
+  line-height: 1.75rem;
+  color: #8aa6cf;
+  font-weight: 100;
+}
+
+.crypto-symbol {
+  margin-right: 2px;
+}
+
+.crypto-price {
+  display: inline;
+  color: #21e1e7;
+  font-weight: 600;
+}
+
+.clock-image {
 }
 
 .days-indicator {
-  display: grid;
+  display: inline;
+  color: #8aa6cf;
+  margin-left: 100px;
+}
+
+.divider {
+  border-color: #8aa6cf;
+  margin-top: 15px;
+  height: 1px;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-style: solid 1px #fff;
+}
+
+.nft-author {
+  display: inline;
+  color: #8aa6cf;
+}
+.author-name {
+  color: #fff;
 }
