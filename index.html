@@ -8,11 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="style.css"
-      <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -22,12 +19,15 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
 
-  <header role="button" tabindex="0">
-    <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <a role="button" tabindex="0" class="skip-link" href="#main"
+      >Skip to content</a
+    >
   </header>
   <body>
-    <h1>NFT Card component page for Equilibrium</h1>
-
+    <div class="component-title">
+      <h1>NFT Card component page for Equilibrium</h1>
+    </div>
     <main id="main">
       <div class="container" id="content">
         <div class="nft-card">
@@ -37,8 +37,8 @@
               src="./images/image-equilibrium.jpg"
               alt="glass cube"
             />
-            <div role="button" tabindex="0">
-              <a href="#" class="icon" alt="view more">
+            <div>
+              <a href="#" tabindex="0" class="icon" alt="view more">
                 <img
                   class="view-icon"
                   src="./images/icon-view.svg"
@@ -78,7 +78,7 @@
               alt="creator image"
             />
             Creation of
-            <span class="creator-name" alt="creator name">Jules Wyvern</span>
+            <span class="creator-name">Jules Wyvern</span>
           </p>
         </div>
       </div>
