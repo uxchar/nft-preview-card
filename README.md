@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2021-12-15 at 13-33-37 Frontend Mentor NFT preview card component](C:\Users\uxcha\OneDrive\Documents\Front-End Work\nft-preview-card-component-main\nft-preview-card-component-main\design\Screenshot 2021-12-15 at 13-33-37 Frontend Mentor NFT preview card component.png)
+[![Screenshot-2021-12-15-at-13-33-37-Frontend-Mentor-NFT-preview-card-component.png](https://i.postimg.cc/25jVk1zP/Screenshot-2021-12-15-at-13-33-37-Frontend-Mentor-NFT-preview-card-component.png)](https://postimg.cc/4YMJwNH5)
 
 ### Links
 
