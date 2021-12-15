@@ -22,6 +22,7 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
 
+  <header><a class="skip-link" href="#main">Skip to content</a></header>
   <body>
     <h1 class="sr-only">NFT Card component page for Equilibrium</h1>
 
@@ -34,13 +35,15 @@
               src="./images/image-equilibrium.jpg"
               alt="glass cube"
             />
-            <a href="#" class="icon" alt="view more">
-              <img
-                class="view-icon"
-                src="./images/icon-view.svg"
-                alt="eye icon, click to view more"
-              />
-            </a>
+            <div role="button">
+              <a href="#" class="icon" alt="view more">
+                <img
+                  class="view-icon"
+                  src="./images/icon-view.svg"
+                  alt="eye icon, click to view more"
+                />
+              </a>
+            </div>
             <div class="overlay"></div>
           </div>
           <h2 class="card-title">Equilibrium #3429</h2>
@@ -73,9 +76,7 @@
               alt="NFT creator image"
             />
             Creation of
-            <span class="creator-name" alt="NFT creator name"
-              >Jules Wyvern</span
-            >
+            <span class="creator-name" alt="creator name">Jules Wyvern</span>
           </p>
         </div>
       </div>
