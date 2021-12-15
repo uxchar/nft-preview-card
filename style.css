@@ -1,3 +1,15 @@
+:root {
+  /* Primary colors */
+  --clr-lightblue: hsl(215, 51%, 70%);
+  --clr-cyan: hsl(178, 100%, 50%);
+
+  /* Neutral colors */
+  --clr-darkblue-main: hsl(217, 54%, 11%);
+  --clr-darkblue-card: hsl(216, 50%, 16%);
+  --clr-darkblue-line: hsl(215, 32%, 27%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
 body {
   background: hsl(217, 54%, 11%);
   font-family: "Outfit", sans-serif;
@@ -6,11 +18,16 @@ body {
 
 h1 {
   font-size: 0.1em;
-  color: hsl(217, 54%, 11%);
+  color: var(--clr-darkblue-main);
+}
+
+p {
+  font-size: 1.125rem;
+  color: var(--clr-lightblue);
 }
 
 .skip-link {
-  background: hsl(217, 54%, 11%);
+  background-color: var(--clr-darkblue-main);
   color: #fff;
   font-weight: 700;
   left: 45%;
@@ -63,7 +80,7 @@ h1 {
   width: 100%;
   opacity: 0;
   transition: 0.3s ease;
-  background-color: hsl(178, 100%, 50%);
+  background-color: var(--clr-cyan);
 }
 
 .icon {
@@ -92,7 +109,7 @@ h1 {
 .nft-card {
   height: 600px;
   width: 350px;
-  background: hsl(216, 50%, 16%);
+  background: var(--clr-darkblue-card);
   border-radius: 20px;
   padding-bottom: 10px;
   box-shadow: -8px 10px 30px 1px rgba(3, 14, 31, 0.49);
@@ -104,12 +121,12 @@ h1 {
 .card-title {
   font-size: 1.4rem;
   font-weight: 600;
-  color: hsl(0, 0%, 100%);
+  color: var(--clr-white);
   margin-top: 25px;
   margin-left: 25px;
 }
 .card-title:hover {
-  color: hsl(178, 100%, 50%);
+  color: var(--clr-cyan);
   cursor: pointer;
 }
 
@@ -117,9 +134,7 @@ h1 {
 .card-description {
   line-height: 1.75rem;
   padding-bottom: 20px;
-  color: hsl(215, 51%, 70%);
   font-weight: 300;
-  font-size: 1.15rem;
   margin: -5px 20px auto 25px;
 }
 
@@ -130,10 +145,10 @@ h1 {
 }
 
 .crypto-price {
-  color: hsl(178, 100%, 50%);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem;
   display: inline;
+  color: var(--clr-cyan);
 }
 
 /* Time indicator */
@@ -145,13 +160,12 @@ h1 {
 .days-indicator {
   display: inline;
   font-size: 1rem;
-  color: hsl(215, 51%, 70%);
   margin-left: 110px;
   font-weight: 400;
 }
 
 .divider {
-  border-color: hsl(215, 32%, 27%);
+  border-color: var(--clr-darkblue-line);
   margin-top: 15px;
   height: 1px;
   margin-top: 25px;
@@ -165,20 +179,20 @@ h1 {
   height: 30px;
   width: 30px;
   display: inline;
-  border: solid 1px hsl(0, 0%, 100%);
+  border: solid 1px var(--clr-white);
   border-radius: 50%;
-  margin: 10px 15px -10px 25px;
+  margin: 10px 10px -10px 25px;
 }
 
 .nft-creator {
   display: inline;
-  color: hsl(215, 51%, 70%);
+  color: var(--clr-lightblue);
 }
 .creator-name {
-  color: hsl(0, 0%, 100%);
+  color: var(--clr-white);
   cursor: pointer;
 }
 
 .creator-name:hover {
-  color: hsl(178, 100%, 50%);
+  color: var(--clr-cyan);
 }
